@@ -7,7 +7,7 @@
 </template>
 
 <!-- Option API -->
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -15,11 +15,14 @@ export default {
     };
   },
 };
-</script>
+</script> -->
 
 <!-- Composition API NEW -->
-<!-- <script setup>
-</script> -->
+<script setup>
+import { ref } from 'vue';
+
+const inputData = ref('');
+</script>
 
 <style>
 </style>

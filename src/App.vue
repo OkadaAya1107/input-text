@@ -3,20 +3,19 @@
 </template>
 
 <!-- Option API -->
-<script>
+<!-- <script>
 import TextInput from './components/TextInput.vue';
-
 export default {
   components: {
    TextInput,
   },
 }
-
-</script>
+</script> -->
 
 <!-- Composition API NEW -->
-<!-- <script setup>
-</script> -->
+<script setup>
+import TextInput from './components/TextInput.vue';
+</script>
 
 <style>
 </style>
